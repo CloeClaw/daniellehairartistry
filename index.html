@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danielle Hair Artistry | Celebrity Hairstylist & Makeup Artist</title>
+    <meta name="description" content="Celebrity hairstylist with 25+ years experience. Personal stylist to Kimora Lee Simmons for 15 years. NYC Fashion Week, magazine covers, TV & film.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo nav-logo-text">
+                <span class="nav-logo-name">Danielle</span>
+                <span class="nav-logo-divider">|</span>
+                <span class="nav-logo-tagline">Hair Artistry</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#extensions">Extensions</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="images/dh-logo-gold.png" alt="Danielle Hair Artistry - Luxury Hair | Extensions Specialist | Effortless Beauty, Expertly Done" class="hero-logo">
+            <h1 class="hero-title sr-only">Danielle Hair Artistry</h1>
+            <p class="hero-description">25+ years crafting iconic looks for magazine covers, red carpets, and the world's most discerning clients.</p>
+            <a href="#portfolio" class="hero-cta">View My Work</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/danielle-portrait.jpg" alt="Danielle - Celebrity Hairstylist" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <p class="section-label">About</p>
+                    <h2 class="section-title">The Artist Behind<br><span class="script">the Artistry</span></h2>
+                    <div class="about-text">
+                        <p class="lead">With over 25 years in the industry, I've had the privilege of styling some of the most recognizable faces in entertainment, fashion, and media.</p>
+                        <p>My journey began at <strong>Bumble and Bumble</strong> in New York City, where I honed my craft and developed my signature approach to hair artistry. It was there that I learned that great hair isn't just about technique—it's about understanding each client's unique essence and translating that into a look that makes them feel extraordinary.</p>
+                        <p>For <strong>15 years</strong>, I served as the personal hairstylist to <strong>Kimora Lee Simmons</strong>, styling her for everything from magazine covers to red carpet events to her hit reality series "Life in the Fab Lane." During this time, I also designed hairpieces for a <strong>Disney line</strong> and created the signature bangs for a leading hair extension company—a design that's <strong>still sold today</strong>. For <strong>17 years</strong>, I've been the go-to stylist for Iron Chef <strong>Alex Guarnaschelli</strong>, keeping her camera-ready for Food Network, Today Show appearances, and magazine covers.</p>
+                        <p>As a former <strong>Nioxin Influencer</strong> and dedicated educator, I stay on the cutting edge of the extension world by constantly certifying in the latest techniques. I specialize in <strong>K-tips, I-tips, micro-beaded extensions, sewn-in wefts, toppers, tape-ins</strong>, and custom-made pieces and wigs—ensuring every client gets a flawless, personalized result.</p>
+                        <p>Today, I bring that same dedication to every client, whether it's a CEO preparing for a keynote, a bride on her wedding day, or a celebrity heading to the Emmys. I also work as a professional makeup artist, offering full glam services for those who want a complete transformation.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Magazine Covers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">NYC</span>
+                            <span class="stat-label">Based & Traveling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Quote -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="featured-quote">
+                <p>"I was Kimora Lee Simmons' hairstylist for 15 years. Here's the brush I designed after she panic-called me about cutting her own bangs."</p>
+                <cite>— On creating The Bang Brush</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <p class="section-label">Portfolio</p>
+            <h2 class="section-title">Selected <span class="script">Work</span></h2>
+            
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="celebrity">Celebrity</button>
+                <button class="filter-btn" data-filter="editorial">Editorial</button>
+                <button class="filter-btn" data-filter="tv-film">TV & Film</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="runway">Runway</button>
+                <button class="filter-btn" data-filter="professional">Professional</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Kimora - Magazine Covers -->
+                <div class="portfolio-item editorial" data-category="editorial">
+                    <img src="images/portfolio/magazines/jet-magazine-kimora-cover.jpg" alt="Kimora Lee Simmons - JET Magazine Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>JET Magazine</h3>
+                        <p>Kimora Lee Simmons</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item editorial" data-category="editorial">
+                    <img src="images/portfolio/magazines/source-magazine-kimora-cover.jpg" alt="Kimora Lee Simmons - The Source Magazine Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>The Source</h3>
+                        <p>Swimsuit Issue</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item editorial" data-category="editorial">
+                    <img src="images/portfolio/magazines/vibe-vixen-kimora-cover.jpg" alt="Kimora Lee Simmons - VIBE Vixen Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>VIBE Vixen</h3>
+                        <p>Kimora Lee Simmons</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item editorial" data-category="editorial">
+                    <img src="images/portfolio/magazines/king-magazine-kimora-cover.jpg" alt="Kimora Lee Simmons - KING Magazine Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>KING Magazine</h3>
+                        <p>Cover Story</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item editorial" data-category="editorial">
+                    <img src="images/portfolio/magazines/la-confidential-kimora-cover.jpg" alt="Kimora Lee Simmons - LA Confidential Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>LA Confidential</h3>
+                        <p>Kimora Lee Simmons</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item editorial" data-category="editorial">
+                    <img src="images/portfolio/magazines/alive-stlouis-kimora-cover.jpg" alt="Kimora Lee Simmons - ALIVE Magazine Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>ALIVE Magazine</h3>
+                        <p>St. Louis</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item editorial celebrity" data-category="editorial">
+                    <img src="images/portfolio/magazines/cigar-aficionado-guy-fieri-cover.jpg" alt="Guy Fieri - Cigar Aficionado Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Cigar Aficionado</h3>
+                        <p>Guy Fieri</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item editorial celebrity" data-category="editorial">
+                    <img src="images/portfolio/magazines/first-magazine-alex-guarnaschelli-cover.jpg" alt="Alex Guarnaschelli - First Magazine Cover" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>First Magazine</h3>
+                        <p>Alex Guarnaschelli</p>
+                    </div>
+                </div>
+
+                <!-- Kimora - TV/Promo -->
+                <div class="portfolio-item celebrity" data-category="celebrity">
+                    <img src="images/portfolio/kimora/kimora-fab-lane-black.jpg" alt="Kimora Lee Simmons - Life in the Fab Lane" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Life in the Fab Lane</h3>
+                        <p>TV Series Promo</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item celebrity" data-category="celebrity">
+                    <img src="images/portfolio/kimora/kimora-fab-lane-pink.jpg" alt="Kimora Lee Simmons - Life in the Fab Lane" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Life in the Fab Lane</h3>
+                        <p>Season Promotional</p>
+                    </div>
+                </div>
+
+                <!-- Runway -->
+                <div class="portfolio-item runway" data-category="runway">
+                    <img src="images/portfolio/kimora/kimora-runway-blue.jpg" alt="Kimora Lee Simmons - NYC Fashion Week Runway" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>NYC Fashion Week</h3>
+                        <p>Kimora Lee Simmons Collection</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item runway" data-category="runway">
+                    <img src="images/portfolio/kimora/kimora-runway-gold.jpg" alt="Kimora Lee Simmons - Fashion Week" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Fashion Week</h3>
+                        <p>Runway Finale</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item runway" data-category="runway">
+                    <img src="images/portfolio/kimora/kimora-runway-red-heart-truth.jpg" alt="Heart Truth Red Dress Collection" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Heart Truth</h3>
+                        <p>Red Dress Collection</p>
+                    </div>
+                </div>
+
+                <!-- Celebrities -->
+                <div class="portfolio-item celebrity" data-category="celebrity">
+                    <img src="images/portfolio/celebrities/pia-toscano-black-gown.jpg" alt="Pia Toscano - Hair Styling" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Pia Toscano</h3>
+                        <p>American Idol</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item celebrity" data-category="celebrity">
+                    <img src="images/portfolio/celebrities/today-show-alex-guarnaschelli.jpg" alt="Alex Guarnaschelli - Today Show" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Today Show</h3>
+                        <p>Alex Guarnaschelli</p>
+                    </div>
+                </div>
+
+                <!-- Professional -->
+                <div class="portfolio-item professional" data-category="professional">
+                    <img src="images/portfolio/celebrities/roseanne-degliuomini-compass-headshot.jpg" alt="Professional Headshot - Hair & Makeup" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Executive Headshot</h3>
+                        <p>Hair & Makeup</p>
+                    </div>
+                </div>
+
+                <!-- TV & Film -->
+                <div class="portfolio-item tv-film" data-category="tv-film">
+                    <img src="images/tv-film/sean-paul-touch-the-sky.jpg" alt="Sean Paul - Touch the Sky Music Video" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Sean Paul</h3>
+                        <p>"Touch the Sky" Music Video</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tv-film" data-category="tv-film">
+                    <img src="images/tv-film/sesame-street.jpg" alt="Sesame Street - Food Network" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Sesame Street</h3>
+                        <p>Cookie Monster & Elmo</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tv-film" data-category="tv-film">
+                    <img src="images/tv-film/wendy-williams-antonia.jpg" alt="Wendy Williams Show - Antonia Lofaso" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Wendy Williams Show</h3>
+                        <p>Antonia Lofaso</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tv-film" data-category="tv-film">
+                    <img src="images/tv-film/orange-is-new-black.jpg" alt="Orange is the New Black - Netflix" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Orange is the New Black</h3>
+                        <p>Netflix Series</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tv-film" data-category="tv-film">
+                    <img src="images/tv-film/carrie-keagan.jpg" alt="Carrie Keagan - TV Host" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Carrie Keagan</h3>
+                        <p>Aerosmith, Kermit & More</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item tv-film" data-category="tv-film">
+                    <img src="images/tv-film/dalmatians-shoot.jpg" alt="101 Dalmatians Themed Shoot" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>101 Dalmatians</h3>
+                        <p>Themed Editorial Shoot</p>
+                    </div>
+                </div>
+
+                <!-- Bridal -->
+                <div class="portfolio-item bridal" data-category="bridal">
+                    <img src="images/bridal/bridal-asian-waves.jpg" alt="Bridal Hair - Romantic Waves" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Styling</h3>
+                        <p>Romantic Waves</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item bridal" data-category="bridal">
+                    <img src="images/bridal/bridal-serrano-wedding.jpg" alt="Serrano Wedding - Hair & Makeup" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Serrano Wedding</h3>
+                        <p>Hair & Makeup</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item bridal" data-category="bridal">
+                    <img src="images/bridal/bridal-waterfall-braid.jpg" alt="Bridal Waterfall Braid" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Styling</h3>
+                        <p>Waterfall Braid</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item bridal" data-category="bridal">
+                    <img src="images/bridal/bridal-central-park.jpg" alt="Central Park Wedding" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Central Park Wedding</h3>
+                        <p>NYC Celebration</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item bridal" data-category="bridal">
+                    <img src="images/bridal/bridal-classic-updo.jpg" alt="Classic Bridal Updo" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Classic Bridal Updo</h3>
+                        <p>Timeless Elegance</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item bridal" data-category="bridal">
+                    <img src="images/bridal/bridal-blonde-veil.jpg" alt="Bridal Veil Styling" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Styling</h3>
+                        <p>Glamorous Waves & Veil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extensions Section -->
+    <section id="extensions" class="extensions">
+        <div class="container">
+            <p class="section-label">Signature Service</p>
+            <h2 class="section-title">Luxury Hair <span class="script">Extensions</span></h2>
+            <p class="extensions-intro">Transform your look with premium hair extensions, expertly applied for seamless, natural results. Whether you're seeking added length, volume, or both — experience the difference of working with a true specialist.</p>
+            
+            <div class="extensions-features">
+                <div class="ext-feature">
+                    <h3>Expert Application</h3>
+                    <p>25+ years of precision technique ensures extensions that blend flawlessly with your natural hair.</p>
+                </div>
+                <div class="ext-feature">
+                    <h3>Premium Quality</h3>
+                    <p>Only the finest human hair extensions, hand-selected for texture, color match, and longevity.</p>
+                </div>
+                <div class="ext-feature">
+                    <h3>Custom Consultation</h3>
+                    <p>Every client receives a personalized assessment to determine the perfect extension solution for their goals.</p>
+                </div>
+            </div>
+
+            <!-- Choosing the Right Extensions -->
+            <div class="choosing-extensions">
+                <div class="choosing-extensions-content">
+                    <div class="choosing-extensions-images">
+                        <img src="images/extensions/luxury-hair-extensions.png" alt="Luxury hair extensions displayed on a professional rack" loading="lazy">
+                        <img src="images/extensions/behind-the-scenes.png" alt="Behind the scenes - premium hair extension selection" loading="lazy">
+                    </div>
+                    <div class="choosing-extensions-text">
+                        <h3>Choosing the Right Extensions for Clients</h3>
+                        <p>Selecting the perfect hair extensions is an art form — one that requires understanding each client's unique hair type, lifestyle, and goals. Here's how I ensure every client gets their ideal match:</p>
+                        
+                        <h4>Consider the Hair Type</h4>
+                        <p>Different hair types require different extensions. For clients with fine hair, lightweight extensions provide a seamless blend without weighing hair down. For those with thicker, coarser textures, more robust extensions ensure a flawless, natural integration.</p>
+                        
+                        <h4>Match the Color</h4>
+                        <p>Color matching is crucial for achieving a natural look. With access to the finest human hair in a wide range of shades, I personally hand-select each set to perfectly complement your natural color. When needed, extensions can be custom-colored and toned to create an undetectable blend.</p>
+                        
+                        <h4>Choose the Right Method of Application</h4>
+                        <p>From K-tips and I-tips to micro-beaded extensions, sewn-in wefts, tape-ins, and custom pieces — each method has its strengths. During your consultation, we'll determine which application suits your hair type, lifestyle, and maintenance preferences.</p>
+                        
+                        <h4>Test and Perfect</h4>
+                        <p>Before committing to a full set, I always ensure the extensions blend perfectly with your natural hair — checking how they move, how they catch the light, and how they feel. The goal is extensions that look and feel like they're truly yours.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="transformations-title">Transformations</h3>
+            <div class="transformation-gallery">
+                <div class="transformation-item">
+                    <img src="images/extensions/transformation-1.jpg" alt="Hair Extension Transformation" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/transformation-2.jpg" alt="Hair Extension Before & After" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/transformation-3.jpg" alt="Hair Extension Results" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/extensions-blonde-transformation.jpg" alt="Blonde Extension Transformation" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/extensions-auburn-transformation.jpg" alt="Auburn Extension Transformation" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/extensions-dark-before-after.jpg" alt="Dark Hair Extension Before & After" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/extensions-blonde-application.jpg" alt="Extension Application Process" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/extensions-blue-holder.jpg" alt="Extension Results" loading="lazy">
+                </div>
+                <div class="transformation-item">
+                    <img src="images/extensions/extensions-blended-styled.jpg" alt="Blended and Styled Extensions" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <p class="section-label">Services</p>
+            <h2 class="section-title">What I <span class="script">Offer</span></h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <h3>Celebrity & Editorial</h3>
+                    <p>Red carpet styling, magazine shoots, press tours, and special events. I bring the same level of excellence to every high-profile moment.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3>Bridal & Special Events</h3>
+                    <p>Your wedding day, gala, or milestone celebration deserves hair and makeup that photographs beautifully and lasts all night.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <polyline points="21 15 16 10 5 21"/>
+                        </svg>
+                    </div>
+                    <h3>Professional Headshots</h3>
+                    <p>Polished hair and makeup for LinkedIn, company websites, speaker bios, and personal branding. Look confident, feel confident.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>TV & Film</h3>
+                    <p>On-set styling for television productions, commercials, music videos, and film. Quick, adaptable, and always camera-ready.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Full Glam</h3>
+                    <p>Complete hair and makeup services for those who want the total transformation. One artist, one cohesive vision, flawless results.</p>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                        </svg>
+                    </div>
+                    <h3>Luxury Hair Extensions</h3>
+                    <p>Premium extension services for transformative volume, length, and versatility. Expert application with seamless, undetectable results. A signature service for clients who demand the best.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <p class="section-label">Clients</p>
+            <h2 class="section-title">Trusted by <span class="script">Icons</span></h2>
+            <p class="clients-intro">Over 25 years, I've had the honor of working with extraordinary people across entertainment, media, and business.</p>
+            
+            <div class="clients-list">
+                <div class="client-category">
+                    <h3>Entertainment</h3>
+                    <ul>
+                        <li>Kimora Lee Simmons</li>
+                        <li>Queen Latifah</li>
+                        <li>Tyra Banks</li>
+                        <li>Pia Toscano</li>
+                        <li>Olivia Rodrigo</li>
+                        <li>Nancy Sinatra</li>
+                        <li>Diahann Carroll</li>
+                        <li>Tracee Gold</li>
+                        <li>Jodie Sweetin</li>
+                        <li>Elisa Donovan</li>
+                        <li>Nicholle Tom</li>
+                        <li>Jennie Kwon</li>
+                        <li>Mark Long</li>
+                    </ul>
+                </div>
+                <div class="client-category">
+                    <h3>Food & Lifestyle</h3>
+                    <ul>
+                        <li>Giada De Laurentiis</li>
+                        <li>Alex Guarnaschelli</li>
+                        <li>Guy Fieri</li>
+                        <li>Food Network Talent</li>
+                    </ul>
+                </div>
+                <div class="client-category">
+                    <h3>Television</h3>
+                    <ul>
+                        <li>Kelly Ripa & Ryan Seacrest</li>
+                        <li>Mario Lopez</li>
+                        <li>Carrie Keagan</li>
+                        <li>Martin Scorsese</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="press-logos">
+                <p class="press-label">Featured In</p>
+                <div class="logos-row">
+                    <span>JET</span>
+                    <span>The Source</span>
+                    <span>VIBE</span>
+                    <span>KING</span>
+                    <span>LA Confidential</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="section-label">Contact</p>
+                    <h2 class="section-title">Let's <span class="script">Connect</span></h2>
+                    <p class="contact-description">Whether you're preparing for a photoshoot, a special event, or need on-set styling, I'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:luxurioushair@msn.com">luxurioushair@msn.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+19295200533">(929) 520-0533</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span>New York City & Available for Travel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="celebrity">Celebrity & Editorial</option>
+                                <option value="bridal">Bridal & Special Events</option>
+                                <option value="headshots">Professional Headshots</option>
+                                <option value="tv-film">TV & Film</option>
+                                <option value="full-glam">Full Glam (Hair + Makeup)</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/dh-logo.png" alt="Danielle Hair Artistry" class="footer-logo-img">
+                </div>
+                <p class="footer-tagline">Luxury Hair | Extensions Specialist | Effortless Beauty, Expertly Done</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="copyright">&copy; 2026 Danielle Hair Artistry. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
