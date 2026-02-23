@@ -59,6 +59,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
+    // Apply initial filter (show Editorial by default)
+    const initialFilter = document.querySelector('.filter-btn.active');
+    if (initialFilter) {
+        const filter = initialFilter.getAttribute('data-filter');
+        portfolioItems.forEach(item => {
+            if (item.classList.contains(filter)) {
+                item.style.display = 'block';
+                item.style.opacity = '1';
+                item.style.transform = 'scale(1)';
+            } else {
+                item.style.display = 'none';
+                item.style.opacity = '0';
+            }
+        });
+    }
+
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
